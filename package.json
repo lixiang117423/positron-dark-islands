@@ -1,0 +1,36 @@
+{
+  "name": "islands-dark",
+  "displayName": "Islands Dark",
+  "description": "A dark color theme for Positron & VS Code, inspired by JetBrains Islands Dark — deep backgrounds, warm syntax highlighting, and a clean modern aesthetic.",
+  "version": "0.1.0",
+  "publisher": "bwya77",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "theme",
+    "islands",
+    "jetbrains",
+    "color theme",
+    "positron"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lixiang117423/positron-dark-islands"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Islands Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/islands-dark.json"
+      }
+    ]
+  }
+}

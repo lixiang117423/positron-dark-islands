@@ -1,0 +1,5 @@
+.DS_Store
+*.vsix
+node_modules/
+result/
+.islands_dark_first_run*
